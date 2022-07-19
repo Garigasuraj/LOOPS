@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class factorial_sum {
-    static void int fact_Sum(int n){
+    static int fact_Sum(int n){
         int sum=0;
         while(n>0){
             int fact=1;
