@@ -17,6 +17,7 @@ public class factorial_sum {
                     fact*=i;
                 }
             }
+            n = n/10;
             sum+= fact;
         }
         return sum;
